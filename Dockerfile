@@ -1,7 +1,4 @@
 FROM node:15.3.0-alpine3.10
-LABEL NAME="salesforce"
-LABEL MAINTAINER Johannes Knoop "jknoop@wice.de"
-LABEL SUMMARY="This image is used to start the Salesforce connector for OIH"
 
 RUN apk --no-cache add \
     python \
