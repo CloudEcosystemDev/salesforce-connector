@@ -15,10 +15,10 @@
   },
   "triggers": {
     "getOppertunities": {
-      "title": "Fetch Oppertunitie",
-      "description": "Get Salesforce Oppertunities",
+      "title": "Fetch Opportunities",
+      "description": "Get Salesforce Opportunities",
       "type": "polling",
-      "main": "./lib/triggers/getOppertunities.js"
+      "main": "./lib/triggers/getOpportunities.js"
     }
   },
   "actions": {}
