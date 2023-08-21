@@ -14,37 +14,12 @@
     }
   },
   "triggers": {
-    "getContacts": {
-      "title": "Fetch Person Contacts",
-      "description": "Get Salesforce person (contact) contacts",
+    "getOppertunities": {
+      "title": "Fetch Oppertunitie",
+      "description": "Get Salesforce Oppertunities",
       "type": "polling",
-      "main": "./lib/triggers/getContacts.js"
-    },
-    "getOrganizations": {
-      "title": "Fetch Organizaton Contacts",
-      "description": "Get Salesforce organization (account) contacts",
-      "type": "polling",
-      "main": "./lib/triggers/getOrganizations.js"
-    },
-    "getOrganizationsAndContacts": {
-      "title": "Fetch Organizaton Contacts",
-      "description": "Get Salesforce organization (account) and person (contact) contacts including the refrence to organization",
-      "type": "polling",
-      "main": "./lib/triggers/getOrganizationsAndContacts.js"
+      "main": "./lib/triggers/getOppertunities.js"
     }
   },
-  "actions": {
-    "upsertContact": {
-      "title": "Upsert a person contact",
-      "description": "Upsert Salesforce person contacts (contact)",
-      "type": "polling",
-      "main": "./lib/actions/upsertContact.js"
-    },
-    "upsertOrganization": {
-      "title": "Upsert a organization contact",
-      "description": "Upsert Salesforce organization contacts (account)",
-      "type": "polling",
-      "main": "./lib/actions/upsertOrganization.js"
-    }
-  }
+  "actions": {}
 }
